@@ -1,0 +1,94 @@
+.box-1{
+    
+    background-image: url("./img/showcase.jpg");
+    // background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    & p:first-child{
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 83px;
+        font-style: normal;
+      
+       
+        
+    }
+    & p:nth-of-type(2){
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 15px 100px;
+        text-align: center;
+    }
+}
+.box-2{
+    background-color:  #35424a ;
+    display: flex;
+    color: white ;
+    justify-content: space-between;
+    padding:2% 10% ;
+    align-items: center;
+    height: 7vh;
+    & p{
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 34px;
+        font-weight: 700;
+
+    }
+    & #email{
+        width: 20vw;
+        height: 5vh;
+    }
+    & #button{
+        width: 7vw;
+        height: 5vh;
+        background-color: #a9508b;
+        color: white;
+        
+    }
+}
+
+
+.box-3{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+
+    & p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+
+    & img{
+        width: 25%;;
+    }
+    
+    & .box-31{
+        width: 25vw;
+        & *{
+            padding:10px
+        }
+    }
+    & .box-32{
+        width: 25vw;
+        & *{
+            padding:10px
+        }
+    }
+    & .box-33{
+        width: 25vw;
+        & *{
+            padding:10px
+        }
+    }
+}
