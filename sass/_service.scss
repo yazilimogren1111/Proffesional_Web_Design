@@ -1,0 +1,57 @@
+.service-container{
+    display: flex;
+    align-items: flex-start;
+}
+h3{
+    margin:0 0 20px 0;
+}
+
+.about-left{
+    margin-left: 50px;
+    margin: 20px 20px 20px 140px;
+}
+
+.about-left div {
+    background-color: rgb(241, 240, 240);
+    margin-bottom: 5px;
+   
+    padding: 20px;
+    & *{
+        margin-top: 40px;
+    }
+    & h{
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+}
+
+.about-right{
+    background-color:  #35424a;
+    margin: 20px 150px 0 40px ;
+    width: 30%;
+    padding: 20px;
+    color: white;
+    & h3{
+        margin: 20px 0;
+    }
+
+    & input{
+        width: 95%;
+        height: 25px;
+    }
+    & button{
+        width: 25%;
+        height: 40px;
+        color: white;
+        background-color: #a9508b ;
+        &::placeholder{
+            text-transform: uppercase;
+        }
+}
+}
+button::placeholder{
+    text-transform: uppercase;
+    color: yellow;
+}

@@ -1,11 +1,12 @@
 header {
+  height: 7vh;
   background-color: #35424a;
   display: flex;
   color: white;
   justify-content: space-between;
   padding: 2% 10%;
   align-items: center;
-  border-bottom: 5px solid #a9508b;
+  border-bottom: 3px solid #a9508b;
 }
 header div.header-left {
   font-family: Arial, Helvetica, sans-serif;
@@ -142,6 +143,104 @@ footer {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-4 {
+  height: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-start;
+}
+.box-4 .box-41 > * {
+  padding: 10px;
+}
+.box-4 .box-41 {
+  margin: 0 5% 30% 9%;
+}
+.box-4 .box-41 p:nth-child(1) {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.box-4 .box-41 p:nth-child(3) {
+  background-color: #35424a;
+  color: white;
+}
+.box-4 .box-42 {
+  background-color: #35424a;
+  margin: 1% 10% 0 0;
+  color: white;
+  padding: 10px;
+}
+.box-4 .box-42 p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 20px 10px;
+}
+.box-4 .box-42 p:nth-child(2) {
+  padding: 0px 10px 10px 10px;
+}
+
+.service-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+h3 {
+  margin: 0 0 20px 0;
+}
+
+.about-left {
+  margin-left: 50px;
+  margin: 20px 20px 20px 140px;
+}
+
+.about-left div {
+  background-color: #f1f0f0;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+.about-left div * {
+  margin-top: 40px;
+}
+.about-left div h {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.about-right {
+  background-color: #35424a;
+  margin: 20px 150px 0 40px;
+  width: 30%;
+  padding: 20px;
+  color: white;
+}
+.about-right h3 {
+  margin: 20px 0;
+}
+.about-right input {
+  width: 95%;
+  height: 25px;
+}
+.about-right button {
+  width: 25%;
+  height: 40px;
+  color: white;
+  background-color: #a9508b;
+}
+.about-right button::placeholder {
+  text-transform: uppercase;
+}
+
+button::placeholder {
+  text-transform: uppercase;
+  color: yellow;
 }
 
 /*# sourceMappingURL=proje.css.map */

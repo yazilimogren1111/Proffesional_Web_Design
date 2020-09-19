@@ -1,11 +1,12 @@
 header{
+    height: 7vh;
     background-color:  #35424a ;
     display: flex;
     color: white;
     justify-content: space-between;
     padding:2% 10% ;
     align-items: center;
-    border-bottom: 5px solid #a9508b;
+    border-bottom: 3px solid #a9508b;
     & div.header-left{
         font-family: Arial, Helvetica, sans-serif;
         font-style: normal;

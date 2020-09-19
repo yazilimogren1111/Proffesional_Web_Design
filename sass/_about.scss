@@ -1,0 +1,43 @@
+
+.box-4{
+    height: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start ;
+    & .box-41>*{
+        padding: 10px;
+    }
+    & .box-41{
+        
+        margin: 0 5% 30% 9% ;
+
+    }
+    & .box-41 p:nth-child(1){
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+    & .box-41 p:nth-child(3){
+        background-color: #35424a;
+        color: white;
+    }
+    & .box-42{
+    background-color: #35424a;
+       margin: 01% 10% 0 0;
+       color: white;
+       padding: 10px;
+       & p:nth-child(1){
+           font-size: 18px;
+           font-weight: 700;
+           line-height: 26px;
+           padding: 20px 10px;
+       }
+       & p:nth-child(2){
+           padding: 0px 10px 10px 10px;
+       }
+    }
+
+}
