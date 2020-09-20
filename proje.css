@@ -38,9 +38,7 @@ header div.header-right a {
 header div.header-right a:hover {
   font-weight: 700;
 }
-header div.header-right .home {
-  color: #a9508b;
-}
+
 
 .box-1 {
   background-image: url("./img/showcase.jpg");
